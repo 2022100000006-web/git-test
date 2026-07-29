@@ -39,3 +39,18 @@ body {
     border-radius: 4px;
     cursor: pointer;
 }
+
+.edit-btn {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#todo-list li.completed span {
+    text-decoration: line-through;
+    color: #999;
+}
